@@ -5,6 +5,10 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background: #AAAAAA;
+}
+main{
+    background-color: white;
 }
 h3{
     width: 243px;
@@ -12,6 +16,8 @@ h3{
     margin-left: 120px;
     font-size: 24px;
 }
+
+/* ------------------------jorney as influencer-------------- */
 h1{
     font-size: 52px;
 }
@@ -38,8 +44,6 @@ p{
 }
 .container{
     display: flex;
-    background-color: white;
-    width: 50%%;
     margin: 0 auto;
 
 }
@@ -52,4 +56,75 @@ p{
     font-size: 16px;
     margin-top: 16px;
 
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
+
+}
+.second{
+    width: 1047px;
+    height: 1662px;
+    padding:100px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 350px;
+}
+.section-title{
+    text-align: center;
+}
+.collection img{
+    width: 300px;
+    height: 256px;
+
+}
+h2{
+    font-size: 28px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.price{
+    font-size: 24px;
+    padding-top: 2px;
+
+}
+span{
+    margin-left: 8px;
+    color: #5E6366;
+    font-size: 14px;
+
+}
+.fa-star{
+    color: #FB8200;
+}
+.fa-star.empty{
+    color: darkgrey;
+}
+.text{
+    font-size: 14px;
+    color: #787885;
+}
+.collection{
+    border: 2px solid cornsilk;
+    border-radius: 5px;
+}
+
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    justify-items: center
+
+}
+.new-link{
+    text-decoration: none;
+    width: 75px;
+    height: 24px;
+    color: #da9db3;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 90%;
+    line-height: 24px;
+    
 }
