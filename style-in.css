@@ -60,6 +60,7 @@ p{
 }
 .link:hover{
     width:200px;
+    background-color: #0f0e0f;
 }
 
 hr{
@@ -211,4 +212,16 @@ footer{
         height: 350px;
     }
 
+    .section-title{
+        margin-left: -100%;
+    }
+    .collections{
+        display: block;
+        margin-left: -15%;
+        width: 100%;
+    }
     
+
+
+
+
