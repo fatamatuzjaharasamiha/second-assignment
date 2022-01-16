@@ -183,18 +183,19 @@ footer{
 .copy{
     color: #D9DBE1;
 }
+
+/* mobile-view  */
 @media screen and (max-width:688px){
 
-    h3{
-        margin-left: -100px;
-}
     h1{
         width: 210%;
         height:50%;
         padding-left: -30px;
         margin-left: -100px;
     }
-
+    .container{
+        flex-direction: column;
+    }
     .left-influence{
         width: 250px;
         height: 200px;
@@ -209,6 +210,5 @@ footer{
         width: 300px;
         height: 350px;
     }
+
     
-    }    
-}
