@@ -221,7 +221,21 @@ footer{
         width: 100%;
     }
     .focus{
-        padding-top: 850%;
+        padding-top: 830%;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .last img{
+        margin-left: -161px;
+    }
+    .product{
+        margin-top: -380px;
+        width: 335px;
+    margin-left: 90px;
+
+    }
+    footer{
+        margin-top: 70%;
     }
 
 
